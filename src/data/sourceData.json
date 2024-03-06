@@ -1,0 +1,22 @@
+[
+    {
+        "label": "Ads",
+        "value": 32
+    },
+    {
+        "label": "Search",
+        "value": 68
+    },
+    {
+        "label": "Social",
+        "value": 20
+    },
+    {
+        "label": "Email",
+        "value": 15
+    },
+    {
+        "label": "Direct",
+        "value": 25
+    }
+]

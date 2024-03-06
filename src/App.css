@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% chiều cao của màn hình */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* css cho biểu đồ */
+.dataCard.customerCard {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 100% chiều cao của màn hình */
+}
+.dataCard, .dataCard2 {
+  margin: 10px; /* Khoảng cách giữa hai biểu đồ */
+}
+
+.dataCard2.customerCard2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.dataCard2.customerCard2 canvas {
+  width: 70% !important; /* Chiều rộng của biểu đồ */
+  height: 70% !important; /* Chiều cao của biểu đồ */
+}
+
+.dataCard2.customerCard2 text {
+  font-size: 18px; /* Kích thước chữ của văn bản thống kê */
+  margin-top: 10px; /* Khoảng cách giữa biểu đồ và văn bản */
+}
