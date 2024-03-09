@@ -1,6 +1,5 @@
 import axios from "axios";
-export const url = "http://192.168.1.143:3001";
-// kiểm tra github
+export const url = "https://sweets-nodejs.onrender.com";
 export const CheckLogin = async (body) => {
     try {
         const response = await axios.post(url + "/users/post-login", body);
